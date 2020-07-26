@@ -22,7 +22,9 @@ public class ContestListAdapter extends RecyclerView.Adapter<ContestListAdapter.
     {
         void onItemClicked(int index);
     }
+    public void clear(){
 
+    }
     public ContestListAdapter (Context context, ArrayList<ContestCard> list)
     {
         contestsData = list;
