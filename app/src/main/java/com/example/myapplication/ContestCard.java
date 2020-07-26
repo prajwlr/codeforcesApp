@@ -1,21 +1,21 @@
 package com.example.myapplication;
 
 public class ContestCard {
-    private int division;
+    private Long division;
     private boolean registered;
     private String contestName;
 
-    public ContestCard(int division, boolean registered, String contestName) {
+    public ContestCard(Long division, boolean registered, String contestName) {
         this.division = division;
         this.registered = registered;
         this.contestName = contestName;
     }
 
-    public int getDivision() {
+    public Long getDivision() {
         return division;
     }
 
-    public void setDivision(int division) {
+    public void setDivision(Long division) {
         this.division = division;
     }
 

@@ -1,36 +1,33 @@
 package com.example.myapplication;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.loader.content.AsyncTaskLoader;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import com.example.myapplication.Extraction.*;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity implements ContestListAdapter.ItemClicked {
+    private static final String location = "contestList.json";
 
     RecyclerView recyclerView;
     RecyclerView.Adapter myAdapter;
     RecyclerView.LayoutManager layoutManager;
     ArrayList<ContestCard> contestsData;
-    JSONArray contestList = new JSONArray();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +37,12 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         contestsData = new ArrayList<ContestCard>();
-        GetOngoingContest getContestData = new GetOngoingContest(contestList);
+        int[] arr={0};
+        JSONObject contestListWrapper = new JSONObject();
+        JSONArray contestList = new JSONArray();
+        contestListWrapper.put("status", "false");
+        contestListWrapper.put("result", contestList);
+        GetOngoingContest getContestData = new GetOngoingContest(contestListWrapper);
         getContestData.start();
         try {
             getContestData.join();
@@ -48,8 +50,16 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
         catch (Exception e) {
             e.printStackTrace();
         }
+        String status = (String)contestListWrapper.get("status");
+        if(status.equals("false")){
+//            contestsData.add(new ContestCard((long) 1, false, "contestName"));
+            contestList = readFile();
+        }
+        else{
+            writeFile(contestList);
+        }
         for(int i=0;i<contestList.size();i++) {
-            contestsData.add(new ContestCard((Integer) ((JSONObject)contestList.get(i)).get("divId"), false, (String) ((JSONObject)contestList.get(i)).get("contestName")));
+            contestsData.add(new ContestCard((Long) ((JSONObject)contestList.get(i)).get("divId"), false, (String) ((JSONObject)contestList.get(i)).get("contestName")));
         }
         myAdapter = new ContestListAdapter(this, contestsData);
         myAdapter = new ContestListAdapter(this, contestsData);
@@ -60,6 +70,54 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
     public void onItemClicked(int index) {
 
         Toast.makeText(this, "Status: " + contestsData.get(index).isRegistered(), Toast.LENGTH_SHORT).show();
+    }
+    public JSONArray readFile(){
+        FileInputStream fis = null;
+        try{
+            fis = openFileInput(location);
+            InputStreamReader isr = new InputStreamReader(fis);
+            BufferedReader br = new BufferedReader(isr);
+            StringBuilder sb = new StringBuilder();
+            String content;
+            while((content=br.readLine())!=null){
+                sb.append(content).append("\n");
+            }
+            JSONParser parser = new JSONParser();
+            return (JSONArray) parser.parse(sb.toString());
+        }
+        catch (IOException | ParseException e){
+            e.printStackTrace();
+        }
+        finally {
+            if(fis!=null) {
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return new JSONArray();
+    }
+    public void writeFile(JSONArray jsonArray) {
+        String content = jsonArray.toJSONString();
+        FileOutputStream fos = null;
+        try {
+            fos = openFileOutput(location, MODE_PRIVATE);
+            fos.write(content.getBytes());
+        }
+        catch (IOException e){
+            e.printStackTrace();
+        }
+        finally {
+            if(fos!=null) {
+                try {
+                    fos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
 
