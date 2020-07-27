@@ -1,11 +1,15 @@
 package com.example.myapplication;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -28,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
     RecyclerView.Adapter myAdapter;
     RecyclerView.LayoutManager layoutManager;
     ArrayList<ContestCard> contestsData;
+    SwipeRefreshLayout swipeRefreshLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +69,24 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
         myAdapter = new ContestListAdapter(this, contestsData);
         myAdapter = new ContestListAdapter(this, contestsData);
         recyclerView.setAdapter(myAdapter);
+
+        swipeRefreshLayout = findViewById(R.id.swipe);
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                swipeRefreshLayout.setRefreshing(false);
+                //your code on swipe refresh
+                //we are checking networking connectivity
+                boolean connection=isNetworkAvailable();
+                if(connection){
+                    Toast.makeText(getApplicationContext(),"Internet is on",Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(getApplicationContext(),"Internet is off",Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
     }
 
     @Override
@@ -121,4 +144,11 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
     }
 
 
+    public boolean isNetworkAvailable(){
+
+        ConnectivityManager connectivityManager=(ConnectivityManager) this.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo=connectivityManager.getActiveNetworkInfo();
+        return networkInfo !=null;
+    }
 }
+
