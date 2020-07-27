@@ -37,8 +37,7 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        setRecyclerView();
-//        setRecyclerView();
+        setRecyclerView();
         swipeRefreshLayout = findViewById(R.id.swipe);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
