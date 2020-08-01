@@ -1,12 +1,17 @@
 package com.example.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -16,6 +21,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import com.example.myapplication.Extraction.*;
+import com.google.android.material.navigation.NavigationView;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -32,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
     RecyclerView.LayoutManager layoutManager;
     ArrayList<ContestCard> contestsData;
     SwipeRefreshLayout swipeRefreshLayout;
+    DrawerLayout dl;
+    ActionBarDrawerToggle actionBarDrawerToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +54,30 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
                 setRecyclerView();
             }
         });
+        dl=(DrawerLayout)findViewById(R.id.dl);
+        actionBarDrawerToggle=new ActionBarDrawerToggle(this,dl,R.string.Open,R.string.Close);
+        actionBarDrawerToggle.setDrawerIndicatorEnabled(true);
+        dl.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        NavigationView nav_view = (NavigationView)findViewById(R.id.nav_view);
+        nav_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                if(id==R.id.nav_login){
+                    Intent intent = new Intent(MainActivity.this, login.class);
+                    startActivity(intent);
+                    return true;
+                }
+                return true;
+            }
+        });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        return actionBarDrawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
 
     @Override

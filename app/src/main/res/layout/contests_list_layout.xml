@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#FFFFFF"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
         app:cardBackgroundColor="#f6f6f6"
         app:cardCornerRadius="3dp"
         app:cardElevation="5dp"
-        android:layout_margin="7dp"
-        app:cardUseCompatPadding="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        app:cardUseCompatPadding="false">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,6 +28,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="3dp"
                 android:layout_weight="2"
+                android:background="#5EFFF0"
                 android:contentDescription="TODO"
                 app:srcCompat="@drawable/div_1" />
 
@@ -35,6 +37,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="10"
+                android:background="#5EFFF0"
                 android:gravity="start"
                 android:text="TextView"
                 android:textAlignment="viewStart"
@@ -46,6 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="#5EFFF0"
                 android:gravity="center_vertical" />
 
         </LinearLayout>

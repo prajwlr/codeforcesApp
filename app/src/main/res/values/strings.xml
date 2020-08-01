@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Codeforces</string>
     <string name="enter_number">enter number</string>
     <string name="click_here">Click here</string>
     <string name="textview">TextView</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+    <item name="dl" type="id" />
 </resources>
