@@ -1,4 +1,4 @@
-#Sun Aug 02 00:16:37 IST 2020
+#Sun Aug 02 00:18:35 IST 2020
 base.0=/home/prajwlr/AndroidStudioProjects/codeforcesApp/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
