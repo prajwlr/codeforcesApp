@@ -18,7 +18,7 @@
 12-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:8:5-31:19
+14-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:8:5-40:19
 15        android:allowBackup="true"
 15-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,34 +37,45 @@
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
 24-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:15:9-40
-25        <activity android:name="com.example.myapplication.splashScreen" >
+25        <activity android:name="com.example.myapplication.InfoPersonal" >
 25-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:16:9-22:20
 25-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:16:19-47
-26            <intent-filter>
-26-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:17:13-21:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:18:17-69
-27-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:18:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:20:17-77
-29-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:20:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity android:name="com.example.myapplication.login" />
-32-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:23:9-43
-32-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:23:19-40
-33        <activity android:name="com.example.myapplication.MainActivity" >
-33-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:24:9-30:20
-33-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:24:19-47
-34
-35            <!-- <intent-filter> -->
-36            <!-- <action android:name="android.intent.action.MAIN" /> -->
+26
+27            <!-- <intent-filter> -->
+28            <!-- <action android:name="android.intent.action.MAIN" /> -->
+29
+30
+31            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+32            <!-- </intent-filter> -->
+33        </activity>
+34        <activity android:name="com.example.myapplication.splashScreen" >
+34-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:23:9-29:20
+34-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:23:19-47
+35            <intent-filter>
+35-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:24:13-28:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:25:17-69
+36-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:25:25-66
 37
-38
-39            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-40            <!-- </intent-filter> -->
-41        </activity>
-42    </application>
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:27:17-77
+38-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:27:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.example.myapplication.login" />
+41-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:30:9-43
+41-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:30:19-40
+42        <activity android:name="com.example.myapplication.MainActivity" >
+42-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:31:9-39:20
+42-->C:\Users\Mahfooz Khan\AndroidStudioProjects\codeforcesApp\app\src\main\AndroidManifest.xml:31:19-47
 43
-44</manifest>
+44            <!-- <intent-filter> -->
+45            <!-- <action android:name="android.intent.action.MAIN" /> -->
+46
+47
+48            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+49            <!-- </intent-filter> -->
+50        </activity>
+51    </application>
+52
+53</manifest>

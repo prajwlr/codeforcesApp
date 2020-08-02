@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Mahfooz Khan\\AndroidStudioProjects\\codeforcesApp\\app\\src\\main\\res\\drawable\\round_border.xml"
     },
     {
+        "merged": "C:\\Users\\Mahfooz Khan\\AndroidStudioProjects\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_info_personal.xml.flat",
+        "source": "C:\\Users\\Mahfooz Khan\\AndroidStudioProjects\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_info_personal.xml"
+    },
+    {
         "merged": "C:\\Users\\Mahfooz Khan\\AndroidStudioProjects\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
         "source": "C:\\Users\\Mahfooz Khan\\AndroidStudioProjects\\codeforcesApp\\app\\src\\main\\res\\menu\\navigation_menu.xml"
     },

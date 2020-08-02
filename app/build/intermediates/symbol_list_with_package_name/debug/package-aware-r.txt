@@ -1662,6 +1662,7 @@ id parent_matrix
 id password_toggle
 id peekHeight
 id percent
+id personalInfo
 id pin
 id progress_circular
 id progress_horizontal
@@ -1824,6 +1825,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_info_personal
 layout activity_login
 layout activity_main
 layout activity_splash_screen

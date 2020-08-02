@@ -22,7 +22,6 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import com.example.myapplication.Extraction.*;
 import com.google.android.material.navigation.NavigationView;
-
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -73,11 +72,7 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
                 return true;
             }
         });
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        return actionBarDrawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
 
     @Override
