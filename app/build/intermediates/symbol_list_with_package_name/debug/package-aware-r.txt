@@ -1711,6 +1711,7 @@ id src_in
 id src_over
 id standard
 id start
+id startLogo
 id status_bar_latest_event_content
 id stretch
 id submenuarrow
@@ -1825,6 +1826,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_splash_screen
 layout contests_list_layout
 layout custom_dialog
 layout design_bottom_navigation_item
