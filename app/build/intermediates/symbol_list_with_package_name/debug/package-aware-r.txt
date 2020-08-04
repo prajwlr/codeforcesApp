@@ -1592,8 +1592,8 @@ id ifRoom
 id image
 id imageView
 id info
-id inputEmail
 id inputPassword
+id inputUser
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1642,6 +1642,7 @@ id nav_controller_view_tag
 id nav_home
 id nav_host_fragment_container
 id nav_login
+id nav_logout
 id nav_view
 id navigation_header_container
 id never

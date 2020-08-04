@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -31,7 +32,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements ContestListAdapter.ItemClicked {
     private static final String location = "contestList.json";
-
+    public static boolean islogin=false;
     RecyclerView recyclerView;
     RecyclerView.Adapter myAdapter;
     RecyclerView.LayoutManager layoutManager;
@@ -60,12 +61,25 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
         actionBarDrawerToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         NavigationView nav_view = (NavigationView)findViewById(R.id.nav_view);
+        Menu nav_Menu=nav_view.getMenu();
+        if(islogin==false)
+            nav_Menu.findItem(R.id.nav_logout).setVisible(false);
+        if(islogin==true)
+            nav_Menu.findItem(R.id.nav_login).setVisible(false);
         nav_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
+
                 if(id==R.id.nav_login){
                     Intent intent = new Intent(MainActivity.this, login.class);
+                    startActivity(intent);
+                    return true;
+                }
+
+                if(id==R.id.nav_logout){
+                    Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                    islogin=false;
                     startActivity(intent);
                     return true;
                 }
@@ -73,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
             }
         });
 
-    }
+     }
 
     @Override
     public void onItemClicked(int index) {
