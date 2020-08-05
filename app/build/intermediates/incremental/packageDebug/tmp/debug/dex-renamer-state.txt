@@ -1,4 +1,4 @@
-#Wed Aug 05 01:20:45 IST 2020
-base.0=C\:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Wed Aug 05 12:51:55 IST 2020
+base.0=C\:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

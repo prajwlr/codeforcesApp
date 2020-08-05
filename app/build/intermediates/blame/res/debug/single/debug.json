@@ -1,162 +1,174 @@
 [
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_bg.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\round_bg.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\menu\\navigation_menu.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_share.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\layout\\nav_header.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_home.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_2.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\div_2.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_profile.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_3.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\div_3.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_email.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_unknown.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\div_unknown.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_back.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\header_back.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_info_personal.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_info_personal.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_1.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\div_1.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\layout\\nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_lock.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_contests_list_layout.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\layout\\contests_list_layout.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_filter_2_24.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_baseline_filter_2_24.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bus.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\bus.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_1.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\div_1.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_bg.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\round_bg.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_lock.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_contests_list_layout.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\layout\\contests_list_layout.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_account.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_border.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\round_border.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_info_personal.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_info_personal.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_border.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\round_border.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\menu\\navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_3.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\div_3.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_unknown.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\div_unknown.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_filter_2_24.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_baseline_filter_2_24.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_back.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\header_back.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rate.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_rate.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\layout\\header.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plane.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\plane.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_2.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\codeforcesApp\\app\\src\\main\\res\\drawable\\div_2.xml"
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plane.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\plane.xml"
+    },
+    {
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bus.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account.xml.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\drawable\\ic_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Akarsh Arya\\Contacts\\codeforcesApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

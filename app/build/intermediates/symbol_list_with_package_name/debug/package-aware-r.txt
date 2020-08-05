@@ -1417,6 +1417,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_profile
+drawable ic_rate
+drawable ic_share
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1643,6 +1646,9 @@ id nav_home
 id nav_host_fragment_container
 id nav_login
 id nav_logout
+id nav_profile
+id nav_rate
+id nav_share
 id nav_view
 id navigation_header_container
 id never
