@@ -6,13 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".InfoPersonal">
 
-    <TextView
-        android:id="@+id/personalInfo"
-        android:layout_width="match_parent"
+
+    <com.anychart.AnyChartView
+        android:id="@+id/any_chart_view"
+        android:layout_width="400dp"
         android:layout_height="match_parent"
-        android:text="TextView"
+        android:layout_marginStart="-10dp"
+        android:layout_marginEnd="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/personalInfo"
+            android:layout_width="297dp"
+            android:layout_height="56dp"
+
+            android:layout_marginStart="18dp"
+            android:text="TextView"
+            android:textColor="#E8321818"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.012" />
+    </com.anychart.AnyChartView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,11 +2,14 @@ package com.example.myapplication;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -31,6 +34,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import static com.example.myapplication.login.CREDENTIALS_PREF_FILENAME;
+
 public class MainActivity extends AppCompatActivity implements ContestListAdapter.ItemClicked {
     private static final String location = "contestList.json";
     public static boolean islogin=false;
@@ -41,9 +46,14 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
     SwipeRefreshLayout swipeRefreshLayout;
     DrawerLayout dl;
     ActionBarDrawerToggle actionBarDrawerToggle;
+    TextView userName;
+    View headerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        islogin = getSharedPreferences(CREDENTIALS_PREF_FILENAME,MODE_PRIVATE).getBoolean("loginStatus",false);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setRecyclerView();
@@ -65,9 +75,17 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
         Menu nav_Menu=nav_view.getMenu();
         if(islogin==false){
             nav_Menu.findItem(R.id.nav_logout).setVisible(false);
+            headerView= nav_view.getHeaderView(0);
+            userName= (TextView)headerView.findViewById(R.id.userName);
+            userName.setText("Guest");
         }
-        if(islogin==true)
+        if(islogin==true){
             nav_Menu.findItem(R.id.nav_login).setVisible(false);
+            headerView= nav_view.getHeaderView(0);
+            userName= (TextView)headerView.findViewById(R.id.userName);
+            userName.setText(getSharedPreferences(CREDENTIALS_PREF_FILENAME, MODE_PRIVATE).getString("handle","Guest"));
+        }
+
         nav_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -83,6 +101,13 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
                     Intent intent = new Intent(MainActivity.this, MainActivity.class);
                     islogin=false;
                     startActivity(intent);
+
+                    SharedPreferences.Editor deleteCredentials = getSharedPreferences(CREDENTIALS_PREF_FILENAME, MODE_PRIVATE).edit();
+                    deleteCredentials.putString("handle","");
+                    deleteCredentials.putString("password","");
+                    deleteCredentials.putBoolean("loginStatus",false);
+                    deleteCredentials.commit();
+
                     return true;
                 }
                 if(id==R.id.nav_profile){
@@ -95,6 +120,7 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
         });
 
      }
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         return actionBarDrawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);

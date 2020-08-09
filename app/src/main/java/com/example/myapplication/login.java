@@ -34,6 +34,8 @@ public class login extends AppCompatActivity {
     private EditText username;
     private EditText password;
     private Button loginbut;
+    public String h;
+    public static final String CREDENTIALS_PREF_FILENAME = "com.example.myapplication.Credentials";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +45,7 @@ public class login extends AppCompatActivity {
         username=findViewById(R.id.inputUser);
         password=findViewById(R.id.inputPassword);
         loginbut=findViewById(R.id.login);
+
 
         loginbut.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,6 +77,13 @@ public class login extends AppCompatActivity {
             {MainActivity.islogin=true;
             //pd.dismiss();
             Toast.makeText(login.this,"Login Successful",Toast.LENGTH_LONG).show();
+
+            SharedPreferences.Editor credEditor = getSharedPreferences(CREDENTIALS_PREF_FILENAME, MODE_PRIVATE).edit();
+            credEditor.putString("handle",username.getText().toString());
+            credEditor.putString("password",password.getText().toString());
+            credEditor.putBoolean("loginStatus",true);
+            credEditor.commit();
+
             Intent intent = new Intent(login.this, MainActivity.class);
             startActivity(intent);
             }
@@ -116,7 +126,7 @@ public class login extends AppCompatActivity {
 
             Log.d("ahref","a[href=/profile/"+handle+"]");
             String check=doc.select("a[href=/profile/"+handle+"]").html();
-
+            h=check;
             if(check.length()>0)
                 return "True";
             else
@@ -124,6 +134,7 @@ public class login extends AppCompatActivity {
 
         }
     }
+
 
 
 //    public void get_cookie(HttpURLConnection conn) {

@@ -851,6 +851,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_logo_back
 color icons
 color main
 color material_blue_grey_800
@@ -1516,6 +1517,7 @@ id add
 id alertTitle
 id all
 id always
+id any_chart_view
 id async
 id auto
 id barrier
@@ -1742,7 +1744,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1765,9 +1766,11 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userName
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
+id web_view
 id withText
 id wrap
 id wrap_content
@@ -1882,7 +1885,6 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
-layout nav_header
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1914,10 +1916,14 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout view_anychart
 menu navigation_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap ic_logo
+mipmap ic_logo_front
+mipmap ic_logo_round
 plurals mtrl_badge_content_description
 string Close
 string Open
