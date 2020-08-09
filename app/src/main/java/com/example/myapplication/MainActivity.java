@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements ContestListAdapte
                 if(id==R.id.nav_logout){
                     Intent intent = new Intent(MainActivity.this, MainActivity.class);
                     islogin=false;
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
 
                     SharedPreferences.Editor deleteCredentials = getSharedPreferences(CREDENTIALS_PREF_FILENAME, MODE_PRIVATE).edit();
